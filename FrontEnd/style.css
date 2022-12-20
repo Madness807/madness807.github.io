@@ -1,0 +1,288 @@
+body{
+    height: 100vw;
+    
+    background-color: var(--clr-neutral-400);
+
+    padding: 10px;
+    
+    overflow: hidden;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.widgets{
+    display: flex;
+}
+
+.clusters{
+    background: #1B1D1D;
+    border-radius: 20px;
+    display: flex;
+    padding: 22px;
+    width: 45%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.clockBack{
+    background: #1B1D1D;
+    border-radius: 20px;
+    display: flex;
+    padding: 22px;
+    width: 45%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bmain {
+    /* width: 40vw; */
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    z-index: 10;
+    background: var(--clr-neutral-200);
+    border-radius: 20px;
+    /* transform: scale(1.05); */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bArrow{
+    height: 50%;
+}
+
+.background{
+    background: rgba(217, 217, 217, 0.32);
+    border-radius: 16px;
+}
+
+.bHour {
+    height: 2em;
+    width: 4em;
+    font-family: 'Roboto';
+    vertical-align: middle;
+    line-height: 2em;
+    font-style: normal;
+    font-weight: 550;
+    text-align: center;
+    font-size: 3vh;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+}
+
+.bsecond {
+    /* width: 38vw; */
+    /* height: 10vh; */
+    display: flex;
+    height: 6em;
+    width: 100%;
+    background-color: var(--clr-neutral-800);
+    border-radius: 20px;
+    position: relative;
+    top: -1em;
+    transform: scale(0.95);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.train{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tmain, .t-third{
+    width: 54vw;
+    height: 10vh;
+
+    background-color: #BBBBBB;
+    background-color: var(--clr-neutral-200);
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.el{
+    margin: 5px;
+}
+
+.mainHour{
+    margin: 15px;
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 5vh;
+    line-height: 112px;    
+
+    color: #000000;
+}
+
+
+.mainArrows {
+    position: relative;
+    display: flex;
+    width: 40vw;
+    height: 8vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mainVoie{
+    position: absolute;
+    width: 5vw;
+    max-height: 8vh;
+}
+
+.mainTrainLogo{
+    position: absolute;
+    z-index: 1;
+    left: 6vw;
+    height: 8vh;
+}
+.mainArrow {
+    position: absolute;
+    left: 9vw;
+    width: 23vw;
+    z-index: 0;
+}
+.mainLogo{
+    position: absolute;
+    width: 5vw;
+    left: 18vw;
+    top: 5.5vh;
+}
+
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    margin: 15px;
+    font-size: 5vh;
+    line-height: 117px;
+
+    color: #000000;
+}
+
+
+
+.secondArrows{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23vw;
+    height: 12vh;
+}
+.secondTrainLogo{
+    position: absolute;
+    height: 8vh;
+    z-index: 1;
+}
+.secondArrow{
+    position: absolute;
+    left: 5vw;
+    width: 14vw;
+    z-index: 0;
+}
+.secondLogo{
+    position: absolute;
+    width: 3vw;
+    left: 12vw;
+    top: 8.5vh;
+}
+
+.secondTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin: 15px;
+    font-size: 3vh;
+    line-height: 117px;
+
+    color: #000000;
+}
+
+.secondHour{
+
+    /* font-family: 'Roboto';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 88px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.secondTitle{
+
+    /* font-family: 'Roboto';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 5vh;
+
+    line-height: 111px;
+    
+    color: #FFFFFF;
+}
+
+.tsecond{
+    width: 50vw;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgba(31, 31, 31, 0.86);
+    background-color: var(--clr-neutral-800);
+
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.t-third{
+    width: 48vw;
+    height: 10vh;
+    margin-top: 2vh;
+
+    background-color: rgba(141, 141, 141, 0.54);
+    background-color: var(--clr-neutral-100);
+
+    border-radius: 20px;
+}
+
+.obj{
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+
+.URGENT{
+    color: red;
+}

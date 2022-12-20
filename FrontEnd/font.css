@@ -1,0 +1,5 @@
+:root{
+    --font-family: 'Roboto', sans-sérif;
+    /* --font-family: 'Open Sans', sans-sérif; */
+    font-family: var(--font-family);
+}
